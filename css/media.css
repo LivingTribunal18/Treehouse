@@ -1,0 +1,22 @@
+@media (max-width: 700px) {
+	.sea > .sea_sub{
+		padding-left: 15px;
+	}
+
+	.dev > .icon{
+		margin-bottom: 8px;
+		display: flex;
+		justify-content: center;
+	}
+
+	.dev > .icon_1{
+		margin-bottom: 20px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+}
+
+/*==================*/
+
