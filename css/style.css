@@ -1,6 +1,7 @@
 *{
 	/*outline: 1px red solid;	*/
 	font-family: sans-serif;
+	scroll-behavior: smooth;
 }
 /*=======================*/
 
@@ -370,13 +371,21 @@ header{
 	align-items: center;
 }
 
+.reverse{
+	flex-direction: row-reverse;
+}
+
 .cl_circle{
+	background: url('../img/sigmund-jzz_3jWMzHA-unsplash.jpg') 50% 50% / cover;
 	margin-right: 25px;
 	margin-left: 25px;
-	background: #f9f9f9;
 	width: 220px;
 	height: 220px;
 	border-radius: 50%;
+}
+
+.client:last-child .cl_circle{
+	background: url('../img/tanjir-ahmed-chowdhury-4trdn4hm-lU-unsplash.jpg') 50% 50% / cover;
 }
 
 .comment{

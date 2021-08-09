@@ -1,4 +1,18 @@
 @media (max-width: 700px) {
+	#navbarSupportedContent{
+		margin-top: 25px;
+	}
+
+	#navbarSupportedContent ul li{
+		margin-bottom: 10px;
+		margin-left: 0;
+		text-align: center;
+	}
+	#navbarSupportedContent ul li a{
+		margin-left: 0;
+	}
+
+
 	.sea > .sea_sub{
 		padding-left: 15px;
 	}
@@ -15,13 +29,22 @@
 		flex-direction: column;
 		align-items: center;
 	}
+
+	.gear{
+		display: none;
+	}
 	
-	.values .culture p {
+	.culture p {
 	    font-size: 12px;
 	    text-overflow: ellipsis;
-	    height: 200px;
-	    white-space: nowrap;
-	    overflow:hidden;
+	    overflow: hidden;
+			display: -moz-box;
+      -moz-box-orient: vertical;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      box-orient: vertical;
+			line-clamp: 4;
+      -webkit-line-clamp: 6;
 	}
 	
 	.client{
@@ -38,6 +61,10 @@
 	.comment{
 	    padding: 20px;
 	    width:unset;
+	}
+
+	.contact h2{
+		text-align: center;
 	}
 
 }
