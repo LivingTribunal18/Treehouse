@@ -15,6 +15,30 @@
 		flex-direction: column;
 		align-items: center;
 	}
+	
+	.values .culture p {
+	    font-size: 12px;
+	    text-overflow: ellipsis;
+	    height: 200px;
+	    white-space: nowrap;
+	    overflow:hidden;
+	}
+	
+	.client{
+	    flex-direction: column;
+	}
+	
+	.cl_circle{
+	    margin-right: 0;
+	    margin-bottom: 25px;
+	    width: 150px;
+	    height: 150px;
+	}
+	
+	.comment{
+	    padding: 20px;
+	    width:unset;
+	}
 
 }
 
