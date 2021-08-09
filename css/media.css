@@ -38,13 +38,13 @@
 	    font-size: 12px;
 	    text-overflow: ellipsis;
 	    overflow: hidden;
-			display: -moz-box;
-      -moz-box-orient: vertical;
-      display: -webkit-box;
-      -webkit-box-orient: vertical;
-      box-orient: vertical;
-			line-clamp: 4;
-      -webkit-line-clamp: 6;
+	    display: -moz-box;
+	    -moz-box-orient: vertical;
+	    display: -webkit-box;
+	    -webkit-box-orient: vertical;
+	    box-orient: vertical;
+	    line-clamp: 6;
+            -webkit-line-clamp: 6;
 	}
 	
 	.client{
